@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+tr:nth-child(even) .list {
+    background-color: rgb(208, 234, 248);
+}
+
+tr:nth-child(odd) .list {
+    background-color: rgb(255, 255, 255);
+}
+
+.transactioHistory {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 2%;
+}
+
+.head,
+.list {
+    border: solid 1px lightgray;
+    height: 40px;
+}
+
+.head {
+    background-color: #0cb1ec;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.list {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 10px;
+}
